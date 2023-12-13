@@ -53,5 +53,22 @@ listar tareas:      http://127.0.0.1:8000/api/tarea/     ---- GET
 listar una tarea:   http://127.0.0.1:8000/api/tarea/1     ---- GET
 insertar tarea:     http://127.0.0.1:8000/api/tarea/insert     ---- POST
 actualizar tarea:   http://127.0.0.1:8000/api/tarea/update/1     ---- PUT
+-- body : raw
+{
+    "dni": "99998888",
+    "titulo": "tarea 7",
+    "descripcion": "descripcion tarea 8"
+}
 eliminar tarea:     http://127.0.0.1:8000/api/tarea/delete/1     ---- DELETE
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------ADJUNTO IMAGENES DE LAS PRUEBAS REALIZADAS CON POSTMAN------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+![image](https://github.com/marco00a1/proyecto_externo/assets/151717549/9adfd4ca-7459-49e1-9939-5ce4c860ed2d)
+![image](https://github.com/marco00a1/proyecto_externo/assets/151717549/12f58de2-226a-4e3f-bc4c-64aebc05f43a)
+![image](https://github.com/marco00a1/proyecto_externo/assets/151717549/bb41e5b4-9525-4f22-9075-5e763d6e25d0)
+
+
 
